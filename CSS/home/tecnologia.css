@@ -1,0 +1,36 @@
+/*CSS Tecnologia*/
+.tecnologia-bg {
+  background: var(--cor-12);
+}
+
+.tecnologia {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+}
+
+.tecnologia h3 {
+  text-transform: uppercase;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.tecnologia h4 {
+  margin-bottom: 40px;
+}
+.tecnologia h5 {
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+.tecnologia p {
+  margin-bottom: 24px;
+}
+.tecnologia img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.tecnologia-conteudo ul {
+  display: flex;
+}

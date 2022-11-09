@@ -10,3 +10,6 @@
 
 /*Bicicletas*/
 @import "./Bicicletas/bicicletas-lista.css";
+
+/*tecnologia*/
+@import "./home/tecnologia.css";
