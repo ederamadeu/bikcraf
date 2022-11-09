@@ -1,8 +1,12 @@
 @import "./global/global.css";
 @import "./utilidades/tipografia.css";
 @import "./utilidades/cores.css";
+
 @import "./global/header.css";
 /*importar dados da home*/
 @import "./home/introducao.css";
-/*importar dados do botão*/
+/*importar dados do botão utilidades*/
 @import "./utilidades/componentes.css";
+
+/*Bicicletas*/
+@import "./Bicicletas/bicicletas-lista.css";
