@@ -5,11 +5,9 @@
 @import "./global/header.css";
 /*importar dados da home*/
 @import "./home/introducao.css";
+@import "./home/tecnologia.css";
 /*importar dados do botão utilidades*/
 @import "./utilidades/componentes.css";
 
 /*Bicicletas*/
 @import "./Bicicletas/bicicletas-lista.css";
-
-/*tecnologia*/
-@import "./home/tecnologia.css";

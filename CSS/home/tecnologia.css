@@ -1,36 +1,72 @@
 /*CSS Tecnologia*/
 .tecnologia-bg {
   background: var(--cor-12);
+  /*sombra interna de 120px antes do conteúdo*/
+  box-shadow: inset 0 120px var(--cor-0), inset 0 -120px var(--cor-0);
 }
-
 .tecnologia {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 0px 40px;
+  gap: 40px;
 }
-
-.tecnologia h3 {
-  text-transform: uppercase;
-  padding-top: 60px;
-  padding-bottom: 40px;
-}
-
-.tecnologia h4 {
-  margin-bottom: 40px;
-}
-.tecnologia h5 {
-  text-transform: uppercase;
-  margin-bottom: 60px;
-}
-.tecnologia p {
-  margin-bottom: 24px;
-}
-.tecnologia img {
+.tecnologia-imagem img {
+  /*por causa do safari precisa definir o valor de width e height de 100%*/
+  width: 100%;
   height: 100%;
   object-fit: cover;
-  border-radius: 4px;
+  object-position: left;
+}
+.tecnologia-conteudo {
+  padding-top: 200px;
+  padding-bottom: 160px;
+}
+.tecnologia-conteudo > span {
+  margin-bottom: 20px;
+  display: block;
+  text-transform: uppercase;
+}
+.tecnologia-conteudo h2 {
+  margin-bottom: 32px;
+}
+.tecnologia-conteudo > p {
+  margin-bottom: 20px;
+}
+.tecnologia-conteudo a {
+  margin-bottom: 80px;
+}
+.tecnologia-vantagens {
+  display: flex;
+  gap: 40px;
+}
+.tecnologia-vantagens h3 {
+  margin-bottom: 8px;
+  width: max-content;
+}
+.tecnologia-vantagens img {
+  width: 24px;
+  margin-bottom: 8px;
+}
+@media (max-width: 800px) {
+  .tecnologia-bg {
+    box-shadow: none;
+  }
+  .tecnologia {
+    grid-template-columns: 1fr;
+  }
+  .tecnologia-conteudo {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .tecnologia-imagem img {
+    display: none;
+  }
+  .tecnologia-conteudo a {
+    margin-bottom: 40px;
+  }
 }
 
-.tecnologia-conteudo ul {
-  display: flex;
+@media (max-width: 600) {
+  .tecnologia-vantagens {
+    flex-direction: column;
+  }
 }
