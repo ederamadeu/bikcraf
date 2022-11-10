@@ -12,6 +12,7 @@ h3,
 h4,
 h5,
 ul,
+blockquote,
 p {
   margin: 0px;
 }
@@ -29,6 +30,7 @@ img {
   max-width: 100%;
   display: block;
 }
+/*parametro aplicado apenas as imagens com extensão jpeg*/
 img[src$="jpg"] {
   border-radius: 5px;
 }

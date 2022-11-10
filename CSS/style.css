@@ -6,6 +6,8 @@
 /*importar dados da home*/
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
+@import "./home/parceiros.css";
+@import "./home/depoimentos.css";
 /*importar dados do botão utilidades*/
 @import "./utilidades/componentes.css";
 
