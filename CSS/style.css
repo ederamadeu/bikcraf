@@ -14,7 +14,7 @@
 @import "./utilidades/titulo.css";
 
 /*Bicicletas*/
-@import "./Bicicletas/nimbus-stark.css";
+@import "./Bicicletas/bicicletas.css";
 @import "./Bicicletas/bicicletas-lista.css";
 
 /*seguros*/
