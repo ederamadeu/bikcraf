@@ -1,0 +1,24 @@
+.termos {
+  background: var(--cor-0);
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+.termos h2 {
+  margin-bottom: 34px;
+}
+.termos li {
+  margin-bottom: 34px;
+}
+@media (max-width: 800px) {
+  .termos {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .termos h2 {
+    margin-bottom: 20px;
+  }
+  .termos li {
+    margin-bottom: 20px;
+  }
+}

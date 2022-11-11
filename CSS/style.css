@@ -3,15 +3,22 @@
 @import "./utilidades/cores.css";
 
 @import "./global/header.css";
+@import "./global/footer.css";
 /*importar dados da home*/
 @import "./home/introducao.css";
 @import "./home/tecnologia.css";
 @import "./home/parceiros.css";
 @import "./home/depoimentos.css";
-/*importar dados do botão utilidades*/
+/*importar dados utilidades*/
 @import "./utilidades/componentes.css";
+@import "./utilidades/titulo.css";
 
 /*Bicicletas*/
+@import "./Bicicletas/nimbus-stark.css";
 @import "./Bicicletas/bicicletas-lista.css";
+
 /*seguros*/
 @import "./seguros/seguros.css";
+
+/*termos*/
+@import "./termos/termos.css";
