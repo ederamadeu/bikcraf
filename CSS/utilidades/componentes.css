@@ -59,3 +59,14 @@
 .link:hover {
   color: var(--cor-0);
 }
+/*caracteristicas bicicletas*/
+.bicicletas-carecteristicas {
+  display: grid;
+  grid-column: auto 1fr;
+  align-items: center;
+  justify-content: start;
+  gap: 16px;
+}
+.bicicletas-carecteristicas span {
+  grid-column: 2;
+}
