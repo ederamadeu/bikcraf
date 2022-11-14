@@ -14,11 +14,12 @@
 @import "./utilidades/titulo.css";
 
 /*Bicicletas*/
-@import "./Bicicletas/bicicletas.css";
-@import "./Bicicletas/bicicletas-lista.css";
-
+@import "./bicicletas/bicicletas.css";
+@import "./bicicletas/bicicletas-lista.css";
 /*seguros*/
 @import "./seguros/seguros.css";
+@import "./seguros/vantagens.css";
+@import "./seguros/perguntas.css";
 
 /*termos*/
 @import "./termos/termos.css";

@@ -1,0 +1,46 @@
+.vantagens-bg {
+  background-color: var(--cor-12);
+}
+.vantagens {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.vantagens-lista {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 60px;
+}
+.vantagens-lista li {
+  margin-right: 20px;
+}
+
+.vantagens-lista img,
+h3,
+p {
+  margin-top: 15px;
+}
+
+@media (max-width: 800px) {
+  .vantagens-lista {
+    grid-template-columns: 1fr 1fr;
+  }
+  .vantagens-lista li {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  .vantagens-lista {
+    grid-template-columns: 1fr;
+    padding-bottom: 40px;
+  }
+  .vantagens-lista li {
+    border-bottom: solid var(--cor-05);
+  }
+  .vantagens-lista img,
+  h3,
+  p {
+    margin-bottom: 40px;
+  }
+}
