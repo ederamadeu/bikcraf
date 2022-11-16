@@ -10,6 +10,9 @@
   grid-template-columns: 1fr 1fr;
 }
 
+#bicicleta .titulo p {
+  text-transform: uppercase;
+}
 .bicicleta-img {
   position: relative;
 }
