@@ -11,6 +11,7 @@
 @import "./home/depoimentos.css";
 /*importar dados utilidades*/
 @import "./utilidades/componentes.css";
+@import "./utilidades/formulario.css";
 @import "./utilidades/titulo.css";
 
 /*Bicicletas*/
@@ -27,3 +28,7 @@
 
 /*termos*/
 @import "./termos/termos.css";
+
+/*contatos*/
+@import "./contato/contato.css";
+@import "./contato/lojas.css";

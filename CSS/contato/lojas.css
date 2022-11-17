@@ -1,0 +1,99 @@
+.lojas {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.lojas h2 {
+  margin-bottom: 60px;
+}
+
+.lojas-locais {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.loja-endereço {
+  background: var(--cor-0);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.loja-endereço-img img {
+  border-radius: 0px;
+}
+
+.loja-endereço h3 {
+  padding-left: 60px;
+  padding-top: 40px;
+  position: relative;
+}
+
+.loja-endereço h3::before {
+  content: "";
+  width: 12px;
+  height: 8px;
+  background-color: var(--cor-p1);
+  position: absolute;
+  left: 36px;
+  top: 58px;
+}
+
+.loja-endereço-dados {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 32px;
+  align-items: center;
+}
+
+.loja-endereço-dados div,
+.loja-endereço-dados address {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.loja-endereço-dados div::before,
+.loja-endereço-dados address::before {
+  content: "";
+  width: 2px;
+  height: 64px;
+  position: absolute;
+  background: var(--cor-02);
+  left: 26px;
+  top: -10px;
+}
+
+.loja-endereço-dados p,
+a {
+  margin-top: -8px;
+  margin-bottom: 12px;
+  padding-left: 40px;
+}
+.loja-endereço-dados a {
+  display: block;
+}
+.loja-endereço-dados span {
+  position: relative;
+  padding-left: 30px;
+}
+
+.loja-endereço-dados span::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  background-image: url("../../img/icones/horario.svg");
+  left: 0px;
+}
+
+@media (max-width: 900px) {
+  .lojas-locais {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 500px) {
+  .loja-endereço-dados {
+    grid-template-columns: 1fr;
+  }
+  .lojas-locais {
+    gap: 20px;
+  }
+}

@@ -23,6 +23,8 @@
   font-size: 1.125rem;
   line-height: 1.33;
   max-width: max-content;
+  border: none;
+  cursor: pointer;
 }
 .botao:hover {
   background: linear-gradient(#ffa60d, #e59317);

@@ -49,8 +49,14 @@
   font: 400 1rem/1.5 "Roboto", sans-serif;
 }
 
+.font-1-xbs {
+  font: 600 0.875rem/1.43 "Poppins", sans-serif;
+}
 .font-2-xs {
   font: 400 0.875rem/1.43 "Roboto", sans-serif;
+}
+.font-2-xbs {
+  font: 500 0.875rem/1.43 "Roboto", sans-serif;
 }
 
 .font-1-xs {
