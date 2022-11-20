@@ -13,6 +13,8 @@
 .form .col-2 {
   grid-column: span 2;
 }
+
+.form select,
 .form textarea,
 .form input[type="text"],
 .form input[type="email"] {
@@ -25,9 +27,11 @@
   box-sizing: border-box;
 }
 
+.form select,
 .form textarea:focus,
 .form input[type="text"]:focus,
-.form input[type="email"]:focus {
+.form input[type="email"]:focus,
+.form input[type="checkbox"]:focus {
   outline: none;
   border-color: var(--cor-p1);
   background: var(--cor-0);
