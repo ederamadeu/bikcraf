@@ -16,10 +16,10 @@ Devem ser adicionadas na frente do código essencial do item 7.
 }
 
 /* 7 Adicione o CSS Essencial abaixo */
-[data-anime] {
+.js [data-anime] {
   opacity: 0;
 }
-.anime {
+.js .anime {
   opacity: 1;
   transform: none;
   transition: transform 0.8s, opacity 0.8s;
